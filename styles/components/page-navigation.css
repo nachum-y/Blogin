@@ -1,0 +1,29 @@
+.nav-cards {
+    border-top: 1px solid var(--clr6);
+    padding: 1.75em 0;
+    text-align: center;
+}
+
+.nav-cards a {
+    color: var(--clr4);
+    font-size: 0.825em;
+
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 2.778;
+
+}
+
+
+.prev-cards:before {
+    content: '\2190';
+    margin-inline-end: 0.625em;
+    margin-inline-start: 1.875em;
+
+}
+
+.next-cards:after {
+    content: '\2192';
+    margin-inline-start: 0.625em;
+    margin-inline-end: 1.875em;
+}
